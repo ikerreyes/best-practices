@@ -19,7 +19,6 @@ You can find a set of good practices for scientific computing in
    versioning
    python/intro
    python_code/intro
-   cluster/intro
 
 
 Indices and tables

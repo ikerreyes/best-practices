@@ -67,6 +67,7 @@ you can create a base class and derive from that::
 It is also useful to give a meaningful error message to your exceptions:
 
 .. ipython:: python
+   :okexcept:
 
    class BgQmapError(Exception):
        pass
