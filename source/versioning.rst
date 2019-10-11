@@ -4,7 +4,7 @@
 Versioning
 ==========
 
-Use **git** to keep track of your code versions.
+Use **git** (or another version control system) to keep track of your code versions.
 
 Add **tags** with the version to release commits.
 
