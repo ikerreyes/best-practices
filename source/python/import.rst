@@ -9,7 +9,7 @@ In addition, it helps to avoid circular imports.
 **No**::
 
    from os import *
-   from os import lisdir
+   from os import listdir
 
 **Yes**::
 

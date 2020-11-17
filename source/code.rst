@@ -3,8 +3,8 @@ Code
 
 No rule is written in stone.
 However, following a standard for coding helps to improve
-quality, consistentcy, readability, compatibality and flexability
-and therefore is higly recommended.
+quality, consistency, readability, compatibility and flexibility
+and therefore is highly recommended.
 Some general good practices when writing code are:
 
 - structure your code: split your code in reasonable groups (files and folders, packages, modules, classes, functions...)
