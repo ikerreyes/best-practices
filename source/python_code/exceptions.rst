@@ -47,7 +47,7 @@ exception class.
 User exceptions should typically derive from, at least,
 ``Exception``::
 
-   class BgQmapError(Exception):
+   class MyPackageError(Exception):
        pass
 
 Most exceptions are defined with names that end in “Error”.
@@ -55,13 +55,13 @@ Most exceptions are defined with names that end in “Error”.
 If you want to create a set of exceptions
 you can create a base class and derive from that::
 
-   class BgQmapError(Exception):
+   class MyPackageError(Exception):
       pass
 
-   class UserInputError(BgQmapError):
+   class UserInputError(MyPackage):
       pass
 
-   class ClusterError(BgQmapError):
+   class ClusterError(MyPackage):
       pass
 
 It is also useful to give a meaningful error message to your exceptions:
@@ -69,10 +69,10 @@ It is also useful to give a meaningful error message to your exceptions:
 .. ipython:: python
    :okexcept:
 
-   class BgQmapError(Exception):
+   class MyPackage(Exception):
        pass
 
-   raise BgQmapError('Exception raised')
+   raise MyPackage('Exception raised')
 
 **No**::
 
