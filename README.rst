@@ -4,6 +4,7 @@ README
 
 Documentation on best practices for code
 (specially Python).
+See on `RTD <http://ikerdocs-best-practices.rtfd.io/>`_.
 
 License
 -------
